@@ -1,0 +1,99 @@
+{
+  "familias": [
+    {
+      "id": "e41c",
+      "nomeFamilia": "Familia Silva Oliveira",
+      "statusFamilia": "Em análise",
+      "nomePrincipal": "Jão Pedro Silva Oliveira",
+      "cpf": "52159854778",
+      "endereco": "Rua Salim Emer. Bairro São Joaquim. N° 240",
+      "cep": "14406343",
+      "rendaMensal": "1400",
+      "telefone1": "16991868405",
+      "telefone2": "16991868405",
+      "comoChegou": "Indicação do Carlos",
+      "familiarExtras": "3",
+      "dadosImovel": "Casa",
+      "necessidadeFamilia": "Só reforma"
+    },
+    {
+      "id": "6570",
+      "nomeFamilia": "Familia Pereira",
+      "statusFamilia": "Aprovado",
+      "nomePrincipal": "Lucas Pereira",
+      "cpf": "22222222222",
+      "endereco": "222222222",
+      "cep": "11111111",
+      "rendaMensal": "22222222222",
+      "telefone1": "2222222222222",
+      "telefone2": "222222222222222",
+      "comoChegou": "2222222222222",
+      "familiarExtras": "2",
+      "dadosImovel": "Apartamento",
+      "necessidadeFamilia": "Construção"
+    },
+    {
+      "id": "7465",
+      "nomeFamilia": "Familia Espelho",
+      "statusFamilia": "Negado",
+      "nomePrincipal": "Bianca Espelho",
+      "cpf": "44444444444",
+      "endereco": "444",
+      "cep": "44444444",
+      "rendaMensal": "4",
+      "telefone1": "4",
+      "telefone2": "4",
+      "comoChegou": "4",
+      "familiarExtras": "2",
+      "dadosImovel": "Apartamento",
+      "necessidadeFamilia": "Só reforma"
+    },
+    {
+      "id": "4992",
+      "nomeFamilia": "Familia Pauly",
+      "statusFamilia": "Aprovado",
+      "nomePrincipal": "Lucas Pauly",
+      "cpf": "22222222222",
+      "endereco": "11",
+      "cep": "11111111",
+      "rendaMensal": "1",
+      "telefone1": "1",
+      "telefone2": "1",
+      "comoChegou": "1",
+      "familiarExtras": "3",
+      "dadosImovel": "Apartamento",
+      "necessidadeFamilia": "Só reforma"
+    },
+    {
+      "id": "a873",
+      "nomeFamilia": "Familia Ponce",
+      "statusFamilia": "Negado",
+      "nomePrincipal": "Elisa Ponce",
+      "cpf": "44444444444",
+      "endereco": "4",
+      "cep": "44444444",
+      "rendaMensal": "4",
+      "telefone1": "4",
+      "telefone2": "4",
+      "comoChegou": "4",
+      "familiarExtras": "4",
+      "dadosImovel": "Alugado",
+      "necessidadeFamilia": "Doação de materiais de construção"
+    }
+  ],
+  "visitas": [],
+  "users": [
+    {
+      "id": "1",
+      "email": "benef@email.com",
+      "password": "123456",
+      "role": "BENEFICIARIO"
+    },
+    {
+      "id": "2",
+      "email": "volun@email.com",
+      "password": "123456",
+      "role": "VOLUNTARIO"
+    }
+  ]
+}
