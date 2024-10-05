@@ -88,9 +88,9 @@ export function Beneficiarios() {
     if (activeTab === 'familias') {
       return filteredFamilies.map((item) => (
         <tr key={item.id}>
-          <td>{item.nomeFamilia}</td>
+          <td>{item.name}</td>
           <td>
-            <span>Status: {item.statusFamilia}</span>
+            <span>Status: {item.status}</span>
           </td>
           <td>
             <button

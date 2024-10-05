@@ -2,22 +2,10 @@ import '@styles/global.scss';
 import '@styles/visualizarInfo.scss';
 import { Navbar } from '../../components/Navbar';
 import { Footer } from '../../components/Footer';
-import { useEffect } from 'react';
-import { useAuth } from '../../contexts/loginContext';
 
 const VisualizarInfo = () => {
     const statusOptions = ['Aprovado', 'Negado', 'Em espera'];
     const currentStatus = statusOptions[2];
-
-    const {user, navigate} = useAuth()
-
-    useEffect(() => {
-        console.log(user)
-
-        if(!user) {
-            navigate("/login")
-        }
-    }, [])
 
     return (
         <div className="visualizar-informacoes">
